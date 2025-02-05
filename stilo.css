@@ -1,0 +1,68 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 368px;
+    border: 2px solid rgb(245, 242, 242, 0.2);
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 13px 13px 15px rgb(245, 242, 242);
+}
+
+.tarjeta{
+    height: 152px;
+    width: 336px;
+    border:2px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    margin: 16px;
+    background-image: url('https://www.biospace.es/wp-content/uploads/cactus-tipos-y-caracteristicas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Diseñador{
+    margin: 16px;
+    width: 336px;
+    background-color: rgb(237, 243, 245);
+    color: #820692;
+    height: 20px;
+    width: 60px;
+    border: 2px solid rgb(237, 243, 245);
+    border-radius: 40%;
+    text-align: center;
+
+}
+
+.Titulo{
+    margin: 16px 16px 0px 16px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.texto{
+    height: 50px;
+    width: 336px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 16px 40px 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+    letter-spacing: 2px;
+}
+
+hr{
+    border-color: rgb(245, 242, 242, 0.4);
+}
+
+.etiqueta{
+    height: 20px;
+    width: 336px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 16px 0px 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
